@@ -32,5 +32,5 @@ int main()
 	<< " BGN per kilogram." << endl;
 
     cout << "Cake is " << priceDifference
-	<< " times more expensive than chocolate.";
+	<< " times more expensive than chocolate." << endl;
 }
