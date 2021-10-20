@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.DecimalToRoman", "01.DecimalToRoman\01.DecimalToRoman.vcxproj", "{176A26E3-83A4-42A7-8D2A-F96C4BC5DEF6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.RomanToDecimal", "02.RomanToDecimal\02.RomanToDecimal.vcxproj", "{26D9FEC0-7D4D-468D-8E46-CFFE10F6C33B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{176A26E3-83A4-42A7-8D2A-F96C4BC5DEF6}.Release|x64.Build.0 = Release|x64
 		{176A26E3-83A4-42A7-8D2A-F96C4BC5DEF6}.Release|x86.ActiveCfg = Release|Win32
 		{176A26E3-83A4-42A7-8D2A-F96C4BC5DEF6}.Release|x86.Build.0 = Release|Win32
+		{26D9FEC0-7D4D-468D-8E46-CFFE10F6C33B}.Debug|x64.ActiveCfg = Debug|x64
+		{26D9FEC0-7D4D-468D-8E46-CFFE10F6C33B}.Debug|x64.Build.0 = Debug|x64
+		{26D9FEC0-7D4D-468D-8E46-CFFE10F6C33B}.Debug|x86.ActiveCfg = Debug|Win32
+		{26D9FEC0-7D4D-468D-8E46-CFFE10F6C33B}.Debug|x86.Build.0 = Debug|Win32
+		{26D9FEC0-7D4D-468D-8E46-CFFE10F6C33B}.Release|x64.ActiveCfg = Release|x64
+		{26D9FEC0-7D4D-468D-8E46-CFFE10F6C33B}.Release|x64.Build.0 = Release|x64
+		{26D9FEC0-7D4D-468D-8E46-CFFE10F6C33B}.Release|x86.ActiveCfg = Release|Win32
+		{26D9FEC0-7D4D-468D-8E46-CFFE10F6C33B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
