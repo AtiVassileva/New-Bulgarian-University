@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	const string WrongInputMessage = "Wrong input";
+	const string WrongInputMessage = "Wrong input!";
 
 	double first, second, third;
 
