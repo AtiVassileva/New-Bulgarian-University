@@ -1,31 +1,24 @@
 #include <iostream>
 #include <string>
-#include <bitset>
-#include <sstream>
 
 using namespace std;
 
 int main()
 {
-	int number;
+	int base, number;
 	cout << "Number: ";
 	cin >> number;
 
-	string binary = bitset<8>(number).to_string();
-	cout << stoi(binary) << endl;
+	cout << "Numerical system: ";
+	cin >> base;
 
-	int rem, i = 1, octalNumber = 0;
-	while (number != 0)
+	string result;
+
+	while (number)
 	{
-		rem = number % 8;
-		number /= 8;
-		octalNumber += rem * i;
-		i *= 10;
+		result += to_string(number % base);
+		number /= base;
 	}
 
-	stringstream stream;
-	stream << hex << number;
-	string res(stream.str());
-
-	cout << "Hex: " << res;
+	cout << "Result: " << string(result.rbegin(), result.rend()) << endl;
 }
