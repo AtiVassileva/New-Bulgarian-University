@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.Months", "06.Months\06.M
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.TriangleArea-Page105", "05.TriangleArea-Page105\05.TriangleArea-Page105.vcxproj", "{36CF566B-BA9B-4437-822B-AF6257C5F816}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.NitricAcid-Page105", "06.NitricAcid-Page105\06.NitricAcid-Page105.vcxproj", "{B13CC65C-F98F-4F41-B2CA-2AF793E55321}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{36CF566B-BA9B-4437-822B-AF6257C5F816}.Release|x64.Build.0 = Release|x64
 		{36CF566B-BA9B-4437-822B-AF6257C5F816}.Release|x86.ActiveCfg = Release|Win32
 		{36CF566B-BA9B-4437-822B-AF6257C5F816}.Release|x86.Build.0 = Release|Win32
+		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Debug|x64.ActiveCfg = Debug|x64
+		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Debug|x64.Build.0 = Debug|x64
+		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Debug|x86.ActiveCfg = Debug|Win32
+		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Debug|x86.Build.0 = Debug|Win32
+		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Release|x64.ActiveCfg = Release|x64
+		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Release|x64.Build.0 = Release|x64
+		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Release|x86.ActiveCfg = Release|Win32
+		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
