@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.TriangleArea-Page105", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.NitricAcid-Page105", "06.NitricAcid-Page105\06.NitricAcid-Page105.vcxproj", "{B13CC65C-F98F-4F41-B2CA-2AF793E55321}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.ManipulateNumbers-Page105", "09.ManipulateNumbers-Page105\09.ManipulateNumbers-Page105.vcxproj", "{0D1BF193-848A-4246-A6DC-A7653C3CC657}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Release|x64.Build.0 = Release|x64
 		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Release|x86.ActiveCfg = Release|Win32
 		{B13CC65C-F98F-4F41-B2CA-2AF793E55321}.Release|x86.Build.0 = Release|Win32
+		{0D1BF193-848A-4246-A6DC-A7653C3CC657}.Debug|x64.ActiveCfg = Debug|x64
+		{0D1BF193-848A-4246-A6DC-A7653C3CC657}.Debug|x64.Build.0 = Debug|x64
+		{0D1BF193-848A-4246-A6DC-A7653C3CC657}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D1BF193-848A-4246-A6DC-A7653C3CC657}.Debug|x86.Build.0 = Debug|Win32
+		{0D1BF193-848A-4246-A6DC-A7653C3CC657}.Release|x64.ActiveCfg = Release|x64
+		{0D1BF193-848A-4246-A6DC-A7653C3CC657}.Release|x64.Build.0 = Release|x64
+		{0D1BF193-848A-4246-A6DC-A7653C3CC657}.Release|x86.ActiveCfg = Release|Win32
+		{0D1BF193-848A-4246-A6DC-A7653C3CC657}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
