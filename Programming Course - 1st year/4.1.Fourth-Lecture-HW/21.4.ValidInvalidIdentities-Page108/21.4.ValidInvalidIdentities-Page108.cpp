@@ -10,7 +10,7 @@ int main()
 
 	double actualResult = 0;
 
-	for (unsigned i = 0; i <= n; i++)
+	for (unsigned i = 1; i <= n; i++)
 	{
 		actualResult += i * pow(i + 1, 2);
 	}
