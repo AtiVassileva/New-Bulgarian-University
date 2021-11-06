@@ -5,13 +5,13 @@ using namespace std;
 
 int main()
 {
-	int number;
+	string number;
 	cout << "Number: ";
 	cin >> number;
 
 	string result;
 
-	for (auto digit : to_string(number))
+	for (auto digit : number)
 	{
 		switch (digit)
 		{
