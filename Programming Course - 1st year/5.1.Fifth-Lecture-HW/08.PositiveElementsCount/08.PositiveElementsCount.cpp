@@ -20,18 +20,18 @@ int main()
 		cin >> numbers[i];
 	}
 
-	int negativeNumbersCounter = 0;
+	int positiveNumbersCounter = 0;
 
 	for (int i = 0; i < n; i++)
 	{
-		if (numbers[i] < 0)
+		if (numbers[i] > 0)
 		{
-			negativeNumbersCounter++;
+			positiveNumbersCounter++;
 		}
 	}
 
-	negativeNumbersCounter > 0
-		? cout << negativeNumbersCounter << endl
+	positiveNumbersCounter > 0
+		? cout << positiveNumbersCounter << endl
 		: cout << "NO" << endl;
 
 	delete[] numbers;
