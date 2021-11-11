@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.ContainsNumber", "01.Con
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.ContainsNumberTimes", "02.ContainsNumberTimes\02.ContainsNumberTimes.vcxproj", "{781F1AF6-EAF7-4EC9-B67C-D265D047835D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.MinimumElement", "03.MinimumElement\03.MinimumElement.vcxproj", "{AC262948-D47D-4C5F-B4E0-2D87B7F3147B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{781F1AF6-EAF7-4EC9-B67C-D265D047835D}.Release|x64.Build.0 = Release|x64
 		{781F1AF6-EAF7-4EC9-B67C-D265D047835D}.Release|x86.ActiveCfg = Release|Win32
 		{781F1AF6-EAF7-4EC9-B67C-D265D047835D}.Release|x86.Build.0 = Release|Win32
+		{AC262948-D47D-4C5F-B4E0-2D87B7F3147B}.Debug|x64.ActiveCfg = Debug|x64
+		{AC262948-D47D-4C5F-B4E0-2D87B7F3147B}.Debug|x64.Build.0 = Debug|x64
+		{AC262948-D47D-4C5F-B4E0-2D87B7F3147B}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC262948-D47D-4C5F-B4E0-2D87B7F3147B}.Debug|x86.Build.0 = Debug|Win32
+		{AC262948-D47D-4C5F-B4E0-2D87B7F3147B}.Release|x64.ActiveCfg = Release|x64
+		{AC262948-D47D-4C5F-B4E0-2D87B7F3147B}.Release|x64.Build.0 = Release|x64
+		{AC262948-D47D-4C5F-B4E0-2D87B7F3147B}.Release|x86.ActiveCfg = Release|Win32
+		{AC262948-D47D-4C5F-B4E0-2D87B7F3147B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
