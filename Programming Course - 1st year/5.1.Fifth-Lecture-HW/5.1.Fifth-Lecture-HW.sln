@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.DifferentFromFiveCount",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.OddNumbersSum", "10.OddNumbersSum\10.OddNumbersSum.vcxproj", "{7E4B2B32-709F-4053-8FBC-19D795A4A925}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.MaximumNumber-page182", "01.MaximumNumber-page182\01.MaximumNumber-page182.vcxproj", "{092EDC36-F032-4CD5-A7E5-8BE3E53F6687}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{7E4B2B32-709F-4053-8FBC-19D795A4A925}.Release|x64.Build.0 = Release|x64
 		{7E4B2B32-709F-4053-8FBC-19D795A4A925}.Release|x86.ActiveCfg = Release|Win32
 		{7E4B2B32-709F-4053-8FBC-19D795A4A925}.Release|x86.Build.0 = Release|Win32
+		{092EDC36-F032-4CD5-A7E5-8BE3E53F6687}.Debug|x64.ActiveCfg = Debug|x64
+		{092EDC36-F032-4CD5-A7E5-8BE3E53F6687}.Debug|x64.Build.0 = Debug|x64
+		{092EDC36-F032-4CD5-A7E5-8BE3E53F6687}.Debug|x86.ActiveCfg = Debug|Win32
+		{092EDC36-F032-4CD5-A7E5-8BE3E53F6687}.Debug|x86.Build.0 = Debug|Win32
+		{092EDC36-F032-4CD5-A7E5-8BE3E53F6687}.Release|x64.ActiveCfg = Release|x64
+		{092EDC36-F032-4CD5-A7E5-8BE3E53F6687}.Release|x64.Build.0 = Release|x64
+		{092EDC36-F032-4CD5-A7E5-8BE3E53F6687}.Release|x86.ActiveCfg = Release|Win32
+		{092EDC36-F032-4CD5-A7E5-8BE3E53F6687}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
