@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.EvenNumbersOnOddIndexes-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.PositiveNumbers-page182", "04.PositiveNumbers-page182\04.PositiveNumbers-page182.vcxproj", "{155C58CD-DCEE-4BDF-93A9-F2CD19BA3C29}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.TransformElements-page182", "05.TransformElements-page182\05.TransformElements-page182.vcxproj", "{A3892DB5-AFC0-4166-99FA-A436B7B1921A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{155C58CD-DCEE-4BDF-93A9-F2CD19BA3C29}.Release|x64.Build.0 = Release|x64
 		{155C58CD-DCEE-4BDF-93A9-F2CD19BA3C29}.Release|x86.ActiveCfg = Release|Win32
 		{155C58CD-DCEE-4BDF-93A9-F2CD19BA3C29}.Release|x86.Build.0 = Release|Win32
+		{A3892DB5-AFC0-4166-99FA-A436B7B1921A}.Debug|x64.ActiveCfg = Debug|x64
+		{A3892DB5-AFC0-4166-99FA-A436B7B1921A}.Debug|x64.Build.0 = Debug|x64
+		{A3892DB5-AFC0-4166-99FA-A436B7B1921A}.Debug|x86.ActiveCfg = Debug|Win32
+		{A3892DB5-AFC0-4166-99FA-A436B7B1921A}.Debug|x86.Build.0 = Debug|Win32
+		{A3892DB5-AFC0-4166-99FA-A436B7B1921A}.Release|x64.ActiveCfg = Release|x64
+		{A3892DB5-AFC0-4166-99FA-A436B7B1921A}.Release|x64.Build.0 = Release|x64
+		{A3892DB5-AFC0-4166-99FA-A436B7B1921A}.Release|x86.ActiveCfg = Release|Win32
+		{A3892DB5-AFC0-4166-99FA-A436B7B1921A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
