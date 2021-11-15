@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.TransformElements-page18
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.Multiples-page182", "06.Multiples-page182\06.Multiples-page182.vcxproj", "{D5373A92-4416-4BFB-B4B1-914BA5002789}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.ShuffleNumbers-page182", "07.ShuffleNumbers-page182\07.ShuffleNumbers-page182.vcxproj", "{3EC9D0E1-48E4-42DB-B9C8-A1F2661B20C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{D5373A92-4416-4BFB-B4B1-914BA5002789}.Release|x64.Build.0 = Release|x64
 		{D5373A92-4416-4BFB-B4B1-914BA5002789}.Release|x86.ActiveCfg = Release|Win32
 		{D5373A92-4416-4BFB-B4B1-914BA5002789}.Release|x86.Build.0 = Release|Win32
+		{3EC9D0E1-48E4-42DB-B9C8-A1F2661B20C1}.Debug|x64.ActiveCfg = Debug|x64
+		{3EC9D0E1-48E4-42DB-B9C8-A1F2661B20C1}.Debug|x64.Build.0 = Debug|x64
+		{3EC9D0E1-48E4-42DB-B9C8-A1F2661B20C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{3EC9D0E1-48E4-42DB-B9C8-A1F2661B20C1}.Debug|x86.Build.0 = Debug|Win32
+		{3EC9D0E1-48E4-42DB-B9C8-A1F2661B20C1}.Release|x64.ActiveCfg = Release|x64
+		{3EC9D0E1-48E4-42DB-B9C8-A1F2661B20C1}.Release|x64.Build.0 = Release|x64
+		{3EC9D0E1-48E4-42DB-B9C8-A1F2661B20C1}.Release|x86.ActiveCfg = Release|Win32
+		{3EC9D0E1-48E4-42DB-B9C8-A1F2661B20C1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
