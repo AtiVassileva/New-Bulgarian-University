@@ -24,6 +24,7 @@
     <ProjectGuid>{eee4a152-6a3d-477c-a0cc-b2d1e0a71eae}</ProjectGuid>
     <RootNamespace>My03Decomposition</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>P03.Decomposition</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

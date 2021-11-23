@@ -6,6 +6,7 @@ int main()
 {
     int n, p, x;
     unsigned int k = 0;
+
     cout << "n: ";
     cin >> n;
 
