@@ -15,12 +15,6 @@ int main()
         return 1;
     }
 
-    if (k <= 0)
-    {
-        cout << "K should be a positive number!";
-        return 2;
-    }
-
     cout << "n: ";
     cin >> n;
 
@@ -30,18 +24,15 @@ int main()
         return 3;
     }
 
-    if (n <= 0)
-    {
-        cout << "N should be a positive number!";
-        return 4;
-    }
-
     double sum = 0;
 
     for (int i = 1; i <= n; i++)
     {
-        sum += pow(i - 2, 2) + k * i;
+        double currentSum = pow(i - 2, 2) + k * i;
+
+        cout << "Current sum: " << currentSum << endl;
+        sum += currentSum;
     }
 
-    cout << "Sum: " << sum << endl;
+    cout << "Total sum: " << sum << endl;
 }
