@@ -2,6 +2,19 @@
 
 using namespace std;
 
+void printMatrix(const int rows, const int cols, int** matrix)
+{
+	for (int i = 0; i < rows; i++)
+	{
+		for (int j = 0; j < cols; j++)
+		{
+			cout << matrix[i][j] << " ";
+		}
+
+		cout << endl;
+	}
+}
+
 int main()
 {
 	int rows, cols;
@@ -36,7 +49,7 @@ int main()
 		return 4;
 	}
 
-	auto matrix = new int*[rows];
+	const auto matrix = new int* [rows];
 
 	for (int i = 0; i < rows; i++)
 	{
@@ -47,20 +60,27 @@ int main()
 	{
 		for (int j = 0; j < cols; j++)
 		{
-			matrix[i][j] = 
+			matrix[i][j] =
 				-12 + rand() % (122 + 1 + 12);
 		}
 	}
 
-	for (int i = 0; i < rows; i++)
-	{
-		for (int j = 0; j < cols; j++)
-		{
-			cout << matrix[i][j] << " ";
-		}
+	cout << "Before: " << endl;
+	printMatrix(rows, cols, matrix);
 
-		cout << endl;
+	for (int row = 0;row < rows; row++)
+	{
+		for (int col = 0;col < cols; col++)
+		{
+			if (rows - row - 1 > col)
+			{
+				matrix[row][col] = 0;
+			}
+		}
 	}
+
+	cout << "After: " << endl;
+	printMatrix(rows, cols, matrix);
 
 	delete[] matrix;
 }
