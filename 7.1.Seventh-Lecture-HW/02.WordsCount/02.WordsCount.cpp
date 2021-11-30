@@ -18,7 +18,7 @@ int main()
 	    {
             words++;
 	    }
-    }
+    } 
 
     cout << "Words count: " << words << endl;
 }
