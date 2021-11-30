@@ -58,7 +58,6 @@ int main()
 		{
 			cout << matrix[i][j] << " ";
 		}
-
 		cout << endl;
 	}
 
