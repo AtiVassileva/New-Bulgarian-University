@@ -28,7 +28,7 @@ int main()
     {
         if (isdigit(symbol))
         {
-            numbers[position] = (int)symbol;
+            numbers[position] = symbol;
             position++;
         }
     }
