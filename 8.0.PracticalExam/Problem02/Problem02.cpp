@@ -47,8 +47,7 @@ int main()
 			? 2 * firstArray[i]
 			: firstArray[i] / 2;
 	}
-
-	//Printing arrays
+	
 	printArray(n, firstArray);
 	printArray(n, secondArray);
 }
