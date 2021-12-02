@@ -39,16 +39,13 @@ int main()
 	}
 
 	const auto secondArray = new int[n];
-	int counter = 0;
 
-	for (int i = 0; i < n; i += 2)
+	for (int i = 0; i < n; i++)
 	{
-		secondArray[counter++] = firstArray[i];
-	}
-
-	for (int i = 1; i <= n; i += 2)
-	{
-		secondArray[counter++] = firstArray[i];
+		secondArray[i] = 
+			firstArray[i] < 5
+			? 2 * firstArray[i]
+			: firstArray[i] / 2;
 	}
 
 	//Printing arrays
