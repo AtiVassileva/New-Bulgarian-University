@@ -50,8 +50,7 @@ int main()
 	{
 		secondArray[counter++] = firstArray[i];
 	}
-
-	//Printing arrays
+	
 	printArray(n, firstArray);
 	printArray(n, secondArray);
 
