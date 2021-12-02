@@ -54,4 +54,7 @@ int main()
 	//Printing arrays
 	printArray(n, firstArray);
 	printArray(n, secondArray);
+
+	delete[] firstArray;
+	delete[] secondArray;
 }

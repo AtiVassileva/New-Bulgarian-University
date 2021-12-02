@@ -93,4 +93,6 @@ int main()
 
 		counter = 0;
 	}
+
+	delete[] matrix;
 }

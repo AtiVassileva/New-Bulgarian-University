@@ -50,4 +50,7 @@ int main()
 	
 	printArray(n, firstArray);
 	printArray(n, secondArray);
+
+	delete[] firstArray;
+	delete[] secondArray;
 }
