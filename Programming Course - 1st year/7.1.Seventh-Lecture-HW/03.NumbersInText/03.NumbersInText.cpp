@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    /*string text;
+    string text;
 
     cout << "Enter text:" << endl;
     getline(cin, text);
@@ -38,17 +38,5 @@ int main()
         cout << numbers[i] << " ";
     }
 
-    delete[] numbers;*/
-
-    int a, b, c, d;
-
-    cin >> a;
-    cin >> b;
-    cin >> c;
-    cin >> d;
-    
-    int result = ((a + b) / a) - ((c + d) / c) * (((a - c) + (b - d)) / (a - c));
-
-    cout << result;
-
+    delete[] numbers;
 }
