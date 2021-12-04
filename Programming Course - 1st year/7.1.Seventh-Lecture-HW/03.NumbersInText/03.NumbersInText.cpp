@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -10,33 +11,20 @@ int main()
     cout << "Enter text:" << endl;
     getline(cin, text);
 
-    int arrayLength = 0;
+	auto numbers = vector<int>();
 
     for (const char symbol : text)
     {
 	    if (isdigit(symbol))
 	    {
-            arrayLength++;
+            numbers.push_back(symbol);
 	    }
     }
 
-    const auto numbers = new int[arrayLength];
+    cout << "Numbers in text: " << endl;
 
-    int position = 0;
-
-    for (const char symbol : text)
+    for (const char number : numbers)
     {
-        if (isdigit(symbol))
-        {
-            numbers[position] = symbol;
-            position++;
-        }
+        cout << number << " ";
     }
-
-	for (int i = 0; i < arrayLength; i++)
-    {
-        cout << numbers[i] << " ";
-    }
-
-    delete[] numbers;
 }
