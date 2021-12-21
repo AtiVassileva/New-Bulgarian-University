@@ -40,7 +40,7 @@ void deleteElement(int array[], const int length, const int number)
     }
 }
 
-auto insertAtTheEnd(const int* array, const int length, int number)
+auto addStudent(const int* array, const int length, int number)
 {
 	const int copyLength = length + 1;
 	const auto arrayCopy = new int[copyLength];
@@ -117,7 +117,7 @@ int main()
 
     const auto insertAtEndArray = new int[3]{ 17, 18, 19 };
     constexpr unsigned insertAtEndArrayLength = 3;
-    const auto insertAtEndResult = insertAtTheEnd(insertAtEndArray, insertAtEndArrayLength, 20);
+    const auto insertAtEndResult = addStudent(insertAtEndArray, insertAtEndArrayLength, 20);
     
     printArray(insertAtEndResult, insertAtEndArrayLength + 1);
 	// 17, 18, 19, 20
