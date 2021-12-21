@@ -106,6 +106,8 @@ void changeValue (int* array, const int length,
 
 int main()
 {
+    // TESTS
+
     const auto deleteArray = new int[5]{ 5, 6, 7, 8, 9 };
     constexpr unsigned deleteArrayLength = 5;
     deleteElement(deleteArray, deleteArrayLength, 7); 
