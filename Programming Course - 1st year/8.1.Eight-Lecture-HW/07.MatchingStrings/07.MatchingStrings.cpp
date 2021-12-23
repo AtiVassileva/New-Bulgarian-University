@@ -9,10 +9,11 @@ int countMatchingWords(const string& firstString,
 	int count = 0;
 
 	string currentWord;
-
+	
 	for (const auto symbol : firstString)
 	{
-		if (symbol == ' ')
+		if (symbol == ' ' || symbol == '\n' 
+			|| symbol == '\0')
 		{
 			if (secondString.find(currentWord) != string::npos)
 			{
