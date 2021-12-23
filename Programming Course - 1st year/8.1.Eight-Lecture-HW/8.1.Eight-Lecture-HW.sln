@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.RemoveDigitsFromString",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.ReplaceString", "06.ReplaceString\06.ReplaceString.vcxproj", "{8AE186C2-AB1A-4B24-9B00-B0E954EACE6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.MatchingStrings", "07.MatchingStrings\07.MatchingStrings.vcxproj", "{5CD86F7D-E084-4A20-BB30-09591D0991FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{8AE186C2-AB1A-4B24-9B00-B0E954EACE6C}.Release|x64.Build.0 = Release|x64
 		{8AE186C2-AB1A-4B24-9B00-B0E954EACE6C}.Release|x86.ActiveCfg = Release|Win32
 		{8AE186C2-AB1A-4B24-9B00-B0E954EACE6C}.Release|x86.Build.0 = Release|Win32
+		{5CD86F7D-E084-4A20-BB30-09591D0991FD}.Debug|x64.ActiveCfg = Debug|x64
+		{5CD86F7D-E084-4A20-BB30-09591D0991FD}.Debug|x64.Build.0 = Debug|x64
+		{5CD86F7D-E084-4A20-BB30-09591D0991FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{5CD86F7D-E084-4A20-BB30-09591D0991FD}.Debug|x86.Build.0 = Debug|Win32
+		{5CD86F7D-E084-4A20-BB30-09591D0991FD}.Release|x64.ActiveCfg = Release|x64
+		{5CD86F7D-E084-4A20-BB30-09591D0991FD}.Release|x64.Build.0 = Release|x64
+		{5CD86F7D-E084-4A20-BB30-09591D0991FD}.Release|x86.ActiveCfg = Release|Win32
+		{5CD86F7D-E084-4A20-BB30-09591D0991FD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
