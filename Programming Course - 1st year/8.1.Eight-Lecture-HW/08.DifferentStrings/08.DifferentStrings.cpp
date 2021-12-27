@@ -1,34 +1,51 @@
 #include <iostream>
 #include <string>
+#include <set>
 
 using namespace std;
 
-int countDifferentWords(const string& firstString,
-	const string& secondString)
+void printUncommonCharacters(const set<char>& uncommonCharacters)
 {
-	int count = 0;
+	for (const auto element : uncommonCharacters)
+	{
+		cout << element << " ";
+	}
 
-	string currentWord;
+	cout << endl;
+}
+
+int findUncommonCharacters(const string& firstString,
+                        const string& secondString)
+{
+	set<char> uncommonCharacters;
 
 	for (const auto symbol : firstString)
 	{
-		if (symbol == ' ' || symbol == '\n'
-			|| symbol == '\0')
+		if (symbol != ' ' && symbol != '\n'
+			&& symbol != '\0')
 		{
-			if (secondString.find(currentWord) != string::npos)
+			if (secondString.find(symbol) == string::npos)
 			{
-				count++;
+				uncommonCharacters.insert(symbol);
 			}
-
-			currentWord = "";
-		}
-		else
-		{
-			currentWord += symbol;
 		}
 	}
 
-	return count;
+	for (const auto symbol : secondString)
+	{
+		if (symbol != ' ' && symbol != '\n'
+			&& symbol != '\0')
+		{
+			if (firstString.find(symbol) == string::npos)
+			{
+				uncommonCharacters.insert(symbol);
+			}
+		}
+	}
+	
+	printUncommonCharacters(uncommonCharacters);
+
+	return uncommonCharacters.size();
 }
 
 int main()
@@ -41,7 +58,9 @@ int main()
 	cout << "Second string: ";
 	getline(cin, secondString);
 
-	const auto count = countDifferentWords(firstString, secondString);
+	cout << "Different characters: " << endl;
 
-	cout << "Different words: " << count << endl;
+	const auto count = findUncommonCharacters(firstString, secondString);
+
+	cout << "Count: " << count << endl;
 }
