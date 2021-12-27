@@ -1,47 +1,66 @@
 #include <iostream>
 #include <string>
+#include <set>
 
 using namespace std;
 
-int countMatchingWords(const string& firstString, 
+void printCommonCharacters(const set<char>& commonCharacters)
+{
+	for (const auto element : commonCharacters)
+	{
+		cout << element << " ";
+	}
+
+	cout << endl;
+}
+
+int findCommonCharacters(const string& firstString,
 	const string& secondString)
 {
-	int count = 0;
+	set<char> commonCharacters;
 
-	string currentWord;
-	
 	for (const auto symbol : firstString)
 	{
-		if (symbol == ' ' || symbol == '\n' 
-			|| symbol == '\0')
+		if (symbol != ' ' && symbol != '\n'
+			&& symbol != '\0')
 		{
-			if (secondString.find(currentWord) != string::npos)
+			if (secondString.find(symbol) != string::npos)
 			{
-				count++;
+				commonCharacters.insert(symbol);
 			}
-
-			currentWord = "";
-		}
-		else 
-		{
-			currentWord += symbol;
 		}
 	}
 
-	return count;
+	for (const auto symbol : secondString)
+	{
+		if (symbol != ' ' && symbol != '\n'
+			&& symbol != '\0')
+		{
+			if (firstString.find(symbol) != string::npos)
+			{
+				commonCharacters.insert(symbol);
+			}
+		}
+	}
+
+	printCommonCharacters(commonCharacters);
+
+	return commonCharacters.size();
 }
 
 int main()
 {
-    string firstString;
-    cout << "First string: ";
-    getline(cin, firstString);
+	string firstString;
+	cout << "First string: ";
+	getline(cin, firstString);
 
-    string secondString;
-    cout << "Second string: ";
-    getline(cin, secondString);
+	string secondString;
+	cout << "Second string: ";
+	getline(cin, secondString);
 
-    const auto count = countMatchingWords(firstString, secondString);
+	cout << "Matching characters: " << endl;
 
-    cout << "Matching words: " << count << endl;
+	const auto count = findCommonCharacters(firstString, secondString);
+
+	cout << "Count: " << count << endl;
 }

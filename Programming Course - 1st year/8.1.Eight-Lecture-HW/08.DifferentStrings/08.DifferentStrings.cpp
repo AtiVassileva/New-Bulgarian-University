@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void printUncommonCharacters(const set<char>& uncommonCharacters)
+void printCommonCharacters(const set<char>& uncommonCharacters)
 {
 	for (const auto element : uncommonCharacters)
 	{
@@ -14,7 +14,7 @@ void printUncommonCharacters(const set<char>& uncommonCharacters)
 	cout << endl;
 }
 
-int findUncommonCharacters(const string& firstString,
+int findCommonCharacters(const string& firstString,
                         const string& secondString)
 {
 	set<char> uncommonCharacters;
@@ -43,7 +43,7 @@ int findUncommonCharacters(const string& firstString,
 		}
 	}
 	
-	printUncommonCharacters(uncommonCharacters);
+	printCommonCharacters(uncommonCharacters);
 
 	return uncommonCharacters.size();
 }
@@ -60,7 +60,7 @@ int main()
 
 	cout << "Different characters: " << endl;
 
-	const auto count = findUncommonCharacters(firstString, secondString);
+	const auto count = findCommonCharacters(firstString, secondString);
 
 	cout << "Count: " << count << endl;
 }
