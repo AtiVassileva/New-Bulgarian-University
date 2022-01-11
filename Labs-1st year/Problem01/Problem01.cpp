@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// Bit mask 
+
 void printArray(int* array, int length);
 int setPower(char*, int size);
 
