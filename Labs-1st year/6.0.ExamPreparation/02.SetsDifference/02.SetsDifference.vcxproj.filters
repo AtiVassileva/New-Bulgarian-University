@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Problem02.cpp">
+    <ClCompile Include="02.SetsDifference.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

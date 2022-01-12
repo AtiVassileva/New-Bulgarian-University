@@ -2,8 +2,6 @@
 
 using namespace std;
 
-// Sets Difference 
-
 void printArray(int* array, int length);
 int setDifferencePower(int*, int, int*, int, int&);
 void findDifference(int*, int, int*, int, int*, int&);
@@ -34,7 +32,8 @@ int main()
 	printArray(difference, power);
 }
 
-void printArray(int* array, int length) {
+void printArray(int* array, int length) 
+{
 	for (int i = 0; i < length; i++)
 	{
 		cout << array[i] << " ";

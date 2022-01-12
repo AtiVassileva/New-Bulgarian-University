@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a4f677d8-2a67-465c-b177-01002e6cd4d0}</ProjectGuid>
-    <RootNamespace>Problem01</RootNamespace>
+    <ProjectGuid>{067699d2-cc56-46ae-8e74-0bc2d472d2b7}</ProjectGuid>
+    <RootNamespace>My01BitMask</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Problem01.cpp" />
+    <ClCompile Include="01.BitMask.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,8 +2,6 @@
 
 using namespace std;
 
-// Subsets
-
 void printArray(int* array, int length);
 bool isSubset(int*, int, int*, int);
 
@@ -23,15 +21,16 @@ int main()
 
 	cout << "Is Set B subset of Set A: ";
 
-	auto result = 
-		isSubset(setA, setASize, setB, setBSize) == 1 
-		? "Yes" 
+	auto result =
+		isSubset(setA, setASize, setB, setBSize) == 1
+		? "Yes"
 		: "No";
 
 	cout << result << endl;
 }
 
-void printArray(int* array, int length) {
+void printArray(int* array, int length) 
+{
 	for (int i = 0; i < length; i++)
 	{
 		cout << array[i] << " ";

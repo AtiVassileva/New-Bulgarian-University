@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{10eb89e2-315d-4f28-acee-4b92f2aac16c}</ProjectGuid>
-    <RootNamespace>Problem03</RootNamespace>
+    <ProjectGuid>{a70ad638-ddd6-423c-b66b-26519163df84}</ProjectGuid>
+    <RootNamespace>My02SetsDifference</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Problem03.cpp" />
+    <ClCompile Include="02.SetsDifference.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
