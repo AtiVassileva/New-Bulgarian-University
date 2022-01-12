@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.RomanToDecimal", "01.Rom
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.DecimalToRoman", "02.DecimalToRoman\02.DecimalToRoman.vcxproj", "{690F2912-2803-450F-9F7B-D16760E49559}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.NumericalSystems", "03.NumericalSystems\03.NumericalSystems.vcxproj", "{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -43,6 +45,14 @@ Global
 		{690F2912-2803-450F-9F7B-D16760E49559}.Release|x64.Build.0 = Release|x64
 		{690F2912-2803-450F-9F7B-D16760E49559}.Release|x86.ActiveCfg = Release|Win32
 		{690F2912-2803-450F-9F7B-D16760E49559}.Release|x86.Build.0 = Release|Win32
+		{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71}.Debug|x64.ActiveCfg = Debug|x64
+		{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71}.Debug|x64.Build.0 = Debug|x64
+		{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71}.Debug|x86.ActiveCfg = Debug|Win32
+		{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71}.Debug|x86.Build.0 = Debug|Win32
+		{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71}.Release|x64.ActiveCfg = Release|x64
+		{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71}.Release|x64.Build.0 = Release|x64
+		{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71}.Release|x86.ActiveCfg = Release|Win32
+		{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +60,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6A03A066-9797-4980-AB8F-2C17E69FDE42} = {D6037E2E-CDFD-4FAC-95E1-0DB79CB1C793}
 		{690F2912-2803-450F-9F7B-D16760E49559} = {D6037E2E-CDFD-4FAC-95E1-0DB79CB1C793}
+		{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71} = {D6037E2E-CDFD-4FAC-95E1-0DB79CB1C793}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81147B32-5735-4A47-80D8-DF935C3F67C0}
