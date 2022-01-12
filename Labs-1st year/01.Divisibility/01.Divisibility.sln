@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.NumericalSystems", "03.N
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.GreatestCommonDivisor", "04.GreatestCommonDivisor\04.GreatestCommonDivisor.vcxproj", "{56B7D6ED-3235-455A-AF5C-DAB7740DCFCF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.HighestCommonFactor", "05.HighestCommonFactor\05.HighestCommonFactor.vcxproj", "{A180AA99-856F-40A4-8320-5512454D03C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -63,6 +65,14 @@ Global
 		{56B7D6ED-3235-455A-AF5C-DAB7740DCFCF}.Release|x64.Build.0 = Release|x64
 		{56B7D6ED-3235-455A-AF5C-DAB7740DCFCF}.Release|x86.ActiveCfg = Release|Win32
 		{56B7D6ED-3235-455A-AF5C-DAB7740DCFCF}.Release|x86.Build.0 = Release|Win32
+		{A180AA99-856F-40A4-8320-5512454D03C9}.Debug|x64.ActiveCfg = Debug|x64
+		{A180AA99-856F-40A4-8320-5512454D03C9}.Debug|x64.Build.0 = Debug|x64
+		{A180AA99-856F-40A4-8320-5512454D03C9}.Debug|x86.ActiveCfg = Debug|Win32
+		{A180AA99-856F-40A4-8320-5512454D03C9}.Debug|x86.Build.0 = Debug|Win32
+		{A180AA99-856F-40A4-8320-5512454D03C9}.Release|x64.ActiveCfg = Release|x64
+		{A180AA99-856F-40A4-8320-5512454D03C9}.Release|x64.Build.0 = Release|x64
+		{A180AA99-856F-40A4-8320-5512454D03C9}.Release|x86.ActiveCfg = Release|Win32
+		{A180AA99-856F-40A4-8320-5512454D03C9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +82,7 @@ Global
 		{690F2912-2803-450F-9F7B-D16760E49559} = {D6037E2E-CDFD-4FAC-95E1-0DB79CB1C793}
 		{6E6F38C6-C26F-444D-936E-8A9FBE6B7D71} = {D6037E2E-CDFD-4FAC-95E1-0DB79CB1C793}
 		{56B7D6ED-3235-455A-AF5C-DAB7740DCFCF} = {D6037E2E-CDFD-4FAC-95E1-0DB79CB1C793}
+		{A180AA99-856F-40A4-8320-5512454D03C9} = {D6037E2E-CDFD-4FAC-95E1-0DB79CB1C793}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81147B32-5735-4A47-80D8-DF935C3F67C0}
