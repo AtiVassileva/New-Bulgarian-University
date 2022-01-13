@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.RepeatingElementsInArray
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.ReverseArray", "02.ReverseArray\02.ReverseArray.vcxproj", "{48BADB5C-F8E4-4B9F-A4D7-159406D1B782}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.Triangles", "03.Triangles\03.Triangles.vcxproj", "{97F02EE2-21E6-4DDE-899D-B50CF10F8AD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{48BADB5C-F8E4-4B9F-A4D7-159406D1B782}.Release|x64.Build.0 = Release|x64
 		{48BADB5C-F8E4-4B9F-A4D7-159406D1B782}.Release|x86.ActiveCfg = Release|Win32
 		{48BADB5C-F8E4-4B9F-A4D7-159406D1B782}.Release|x86.Build.0 = Release|Win32
+		{97F02EE2-21E6-4DDE-899D-B50CF10F8AD1}.Debug|x64.ActiveCfg = Debug|x64
+		{97F02EE2-21E6-4DDE-899D-B50CF10F8AD1}.Debug|x64.Build.0 = Debug|x64
+		{97F02EE2-21E6-4DDE-899D-B50CF10F8AD1}.Debug|x86.ActiveCfg = Debug|Win32
+		{97F02EE2-21E6-4DDE-899D-B50CF10F8AD1}.Debug|x86.Build.0 = Debug|Win32
+		{97F02EE2-21E6-4DDE-899D-B50CF10F8AD1}.Release|x64.ActiveCfg = Release|x64
+		{97F02EE2-21E6-4DDE-899D-B50CF10F8AD1}.Release|x64.Build.0 = Release|x64
+		{97F02EE2-21E6-4DDE-899D-B50CF10F8AD1}.Release|x86.ActiveCfg = Release|Win32
+		{97F02EE2-21E6-4DDE-899D-B50CF10F8AD1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
