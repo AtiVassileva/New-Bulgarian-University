@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int* fillArray(int[], int length);
+int* fillArray(int[], int);
 void printArray(int[], int);
 void printRepeatingElements(int[], int);
 
