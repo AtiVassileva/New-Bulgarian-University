@@ -66,3 +66,8 @@ string Person::makeAssumption() const
 
 	return result;
 }
+
+double Person::callIndex(const Person& first, const Person& second)
+{
+	return pow(first.height - second.height, 2) + (first.calculateBMI() - second.calculateBMI());
+}
