@@ -23,4 +23,5 @@ public:
 
 	double calculateBMI() const;
 	void printInfo() const;
+	string makeAssumption() const;
 };
