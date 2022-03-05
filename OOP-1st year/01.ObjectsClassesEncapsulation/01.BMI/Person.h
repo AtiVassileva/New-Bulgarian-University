@@ -11,6 +11,7 @@ private:
 	int weight;
 
 public:
+	Person();
 	Person(const char* name, int height, int weight);
 
 	const char* getName() const;
@@ -26,4 +27,6 @@ public:
 	string makeAssumption() const;
 
 	static double callIndex(const Person& first, const Person& second);
+
+	static Person* findFittestCouple(Person people[10]);
 };

@@ -1,4 +1,9 @@
 #include "Person.h"
+#include <float.h>
+
+Person::Person()
+{
+}
 
 Person::Person(const char* name, int height, int weight)
 {
@@ -70,4 +75,27 @@ string Person::makeAssumption() const
 double Person::callIndex(const Person& first, const Person& second)
 {
 	return pow(first.height - second.height, 2) + (first.calculateBMI() - second.calculateBMI());
+}
+
+Person* Person::findFittestCouple(Person people[10])
+{
+	double fittestResult = DBL_MAX;
+	Person fittestCouple[2];
+
+	for (int i = 0; i < 9; i++)
+	{
+		Person first = people[i];
+		Person second = people[i + 1];
+
+		const double currentResult = Person::callIndex(first, second);
+
+		if (currentResult < fittestResult)
+		{
+			fittestResult = currentResult;
+			fittestCouple[0] = first;
+			fittestCouple[1] = second;
+		}
+	}
+
+	return fittestCouple;
 }
